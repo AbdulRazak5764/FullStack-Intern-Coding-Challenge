@@ -1,0 +1,21 @@
+# Root gitignore
+.DS_Store
+Thumbs.db
+*.log
+
+# Backend build
+backend/dist/
+
+# Frontend build
+frontend/dist/
+
+# Prisma SQLite (dev only — included for easy run)
+# backend/prisma/dev.db   ← keeping this so it works out of the box
+
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Env files (never commit secrets)
+backend/.env
